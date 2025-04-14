@@ -140,7 +140,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="Validasi Data Pelanggan" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="470" y="50" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="540" y="80" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="119" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="56" target="16">
                     <mxGeometry relative="1" as="geometry"/>
@@ -242,8 +242,32 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
+                <mxCell id="150" style="edgeStyle=none;html=1;dashed=1;entryX=0.042;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="106" target="149">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="&amp;lt;iclude&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="150">
+                    <mxGeometry x="-0.0586" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="153" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="106" target="152">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="&amp;lt;include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="153">
+                    <mxGeometry x="-0.003" y="-1" relative="1" as="geometry">
+                        <mxPoint y="7" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="156" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="106" target="155">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="&amp;lt;include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="156">
+                    <mxGeometry x="-0.2511" y="1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="106" value="Pengiriman barang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="660" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="150" y="650" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="108" value="Pengelola Stok" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
                     <mxGeometry x="760" y="460" width="120" height="50" as="geometry"/>
@@ -274,7 +298,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="114" value="Bon Pengeluaran/Penarikan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="340" y="700" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="340" y="730" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="131" style="edgeStyle=none;html=1;dashed=1;" edge="1" parent="1" source="128" target="110">
                     <mxGeometry relative="1" as="geometry"/>
@@ -307,7 +331,24 @@
                     <mxGeometry x="700" y="620" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="144" value="Penarikan Barang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="120" y="750" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="120" y="710" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" value="Melakukan Pengawasan Produk saat Pengiriman" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="790" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="Memantau Suhu Penyimpanan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="850" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" value="Verifikasi Surat Jalan &amp;amp; Barang" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="670" width="120" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" style="edgeStyle=none;html=1;entryX=0.708;entryY=0.88;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="30" target="50">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="160" value="&amp;lt;include&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="159">
+                    <mxGeometry x="0.5825" y="-1" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
